@@ -1,0 +1,48 @@
+
+body{
+    background-image: url("images/eggcatcher2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+}
+
+.bgimage {
+    position: relative;
+    filter: blur(3px);
+  }
+
+.myIntro{
+    
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    font-family: 'Gruppo';font-size: px;
+    top: 30%;
+    bottom: 70%;
+    left: 30%;
+    color: beige;    
+}
+
+#playername{
+    width:70%;
+    font-family: 'Gruppo';font-size: 22px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin:8px 0;
+    height: 30px;
+    outline: none;
+    padding:8px;
+    box-sizing: border-box;
+    border-color: white;
+    box-shadow: 0 0 8px 0 darkgreen;
+}
+
+#startbtn{
+    width: 20%;
+    font-family: 'Gruppo';font-size: 22px;
+    box-shadow: white;
+    border: white;
+    
+
+}
